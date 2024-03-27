@@ -25,10 +25,15 @@ struct CustomVideoView: View {
             ZStack (alignment: .bottomTrailing){
                 VideoPlayer(player: player)
                     .onAppear {
+                        player.pause()
                         player = AVPlayer(url: url)
                         player.play()
                         player.isMuted = isMuted
                     }
+                    .onDisappear(perform: {
+                        player.pause()
+                    })
+                
                 Color.white.opacity(0) //tira os elementos nativos do video
                 Button {
                     isMuted.toggle()

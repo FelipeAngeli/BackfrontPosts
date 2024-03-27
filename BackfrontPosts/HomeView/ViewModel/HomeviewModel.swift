@@ -4,9 +4,9 @@
 //
 //  Created by Felipe Angeli on 25/03/24.
 //
+import SwiftUI
 
-
-
+@Observable
 class HomeviewModel {
     
     var isMuted: Bool = true

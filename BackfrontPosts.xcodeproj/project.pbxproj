@@ -15,6 +15,19 @@
 		55BA4D0F2BB1F03D00818405 /* Postdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D0E2BB1F03D00818405 /* Postdata.swift */; };
 		55BA4D112BB1F44400818405 /* PostMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D102BB1F44400818405 /* PostMock.swift */; };
 		55BA4D142BB20F9900818405 /* CustomVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D132BB20F9900818405 /* CustomVideoView.swift */; };
+		55BA4D162BB3122A00818405 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D152BB3122A00818405 /* Activity.swift */; };
+		55BA4D182BB3154600818405 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D172BB3154600818405 /* User.swift */; };
+		55BA4D1B2BB340C900818405 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D1A2BB340C900818405 /* ActivityView.swift */; };
+		55BA4D1D2BB3414400818405 /* ActivityMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D1C2BB3414400818405 /* ActivityMock.swift */; };
+		55BA4D202BB3576800818405 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D1F2BB3576800818405 /* NotificationViewModel.swift */; };
+		55BA4D222BB3643B00818405 /* HighlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D212BB3643B00818405 /* HighlightData.swift */; };
+		55BA4D242BB3649000818405 /* ProfilePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D232BB3649000818405 /* ProfilePost.swift */; };
+		55BA4D272BB3652000818405 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D262BB3652000818405 /* ProfileViewModel.swift */; };
+		55BA4D292BB368BE00818405 /* HighlightMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D282BB368BE00818405 /* HighlightMock.swift */; };
+		55BA4D2B2BB3692900818405 /* ProfilePostMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D2A2BB3692900818405 /* ProfilePostMock.swift */; };
+		55BA4D2E2BB43F8700818405 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D2D2BB43F8700818405 /* UserProfileView.swift */; };
+		55BA4D312BB447EA00818405 /* HiglightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D302BB447EA00818405 /* HiglightView.swift */; };
+		55BA4D342BB451D800818405 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA4D332BB451D800818405 /* PostGridView.swift */; };
 		935640012BA71B5400CB573B /* BackfrontPostsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935640002BA71B5400CB573B /* BackfrontPostsApp.swift */; };
 		935640032BA71B5400CB573B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935640022BA71B5400CB573B /* MainView.swift */; };
 		935640052BA71B5600CB573B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935640042BA71B5600CB573B /* Assets.xcassets */; };
@@ -34,6 +47,19 @@
 		55BA4D0E2BB1F03D00818405 /* Postdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postdata.swift; sourceTree = "<group>"; };
 		55BA4D102BB1F44400818405 /* PostMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMock.swift; sourceTree = "<group>"; };
 		55BA4D132BB20F9900818405 /* CustomVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoView.swift; sourceTree = "<group>"; };
+		55BA4D152BB3122A00818405 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		55BA4D172BB3154600818405 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		55BA4D1A2BB340C900818405 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		55BA4D1C2BB3414400818405 /* ActivityMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityMock.swift; sourceTree = "<group>"; };
+		55BA4D1F2BB3576800818405 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		55BA4D212BB3643B00818405 /* HighlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightData.swift; sourceTree = "<group>"; };
+		55BA4D232BB3649000818405 /* ProfilePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePost.swift; sourceTree = "<group>"; };
+		55BA4D262BB3652000818405 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		55BA4D282BB368BE00818405 /* HighlightMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightMock.swift; sourceTree = "<group>"; };
+		55BA4D2A2BB3692900818405 /* ProfilePostMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostMock.swift; sourceTree = "<group>"; };
+		55BA4D2D2BB43F8700818405 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		55BA4D302BB447EA00818405 /* HiglightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiglightView.swift; sourceTree = "<group>"; };
+		55BA4D332BB451D800818405 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		93563FFD2BA71B5400CB573B /* BackfrontPosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackfrontPosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935640002BA71B5400CB573B /* BackfrontPostsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackfrontPostsApp.swift; sourceTree = "<group>"; };
 		935640022BA71B5400CB573B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -70,6 +96,10 @@
 				55BA4D052BB1A7F600818405 /* Mock */,
 				55BA4D032BB1A73C00818405 /* StoryData.swift */,
 				55BA4D0E2BB1F03D00818405 /* Postdata.swift */,
+				55BA4D152BB3122A00818405 /* Activity.swift */,
+				55BA4D172BB3154600818405 /* User.swift */,
+				55BA4D212BB3643B00818405 /* HighlightData.swift */,
+				55BA4D232BB3649000818405 /* ProfilePost.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,6 +109,9 @@
 			children = (
 				55BA4D062BB1A80300818405 /* StoryMock.swift */,
 				55BA4D102BB1F44400818405 /* PostMock.swift */,
+				55BA4D1C2BB3414400818405 /* ActivityMock.swift */,
+				55BA4D282BB368BE00818405 /* HighlightMock.swift */,
+				55BA4D2A2BB3692900818405 /* ProfilePostMock.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -107,6 +140,54 @@
 			path = CustomVideoView;
 			sourceTree = "<group>";
 		};
+		55BA4D192BB340A900818405 /* ActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D1A2BB340C900818405 /* ActivityView.swift */,
+			);
+			path = ActivityView;
+			sourceTree = "<group>";
+		};
+		55BA4D1E2BB3574B00818405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D1F2BB3576800818405 /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55BA4D252BB3650700818405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D262BB3652000818405 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55BA4D2C2BB43F6D00818405 /* UserProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D2D2BB43F8700818405 /* UserProfileView.swift */,
+			);
+			path = UserProfileView;
+			sourceTree = "<group>";
+		};
+		55BA4D2F2BB447CC00818405 /* HiglightView */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D302BB447EA00818405 /* HiglightView.swift */,
+			);
+			path = HiglightView;
+			sourceTree = "<group>";
+		};
+		55BA4D322BB451C200818405 /* PostGridView */ = {
+			isa = PBXGroup;
+			children = (
+				55BA4D332BB451D800818405 /* PostGridView.swift */,
+			);
+			path = PostGridView;
+			sourceTree = "<group>";
+		};
 		93563FF42BA71B5400CB573B = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +207,10 @@
 		93563FFF2BA71B5400CB573B /* BackfrontPosts */ = {
 			isa = PBXGroup;
 			children = (
+				55BA4D322BB451C200818405 /* PostGridView */,
+				55BA4D2F2BB447CC00818405 /* HiglightView */,
+				55BA4D2C2BB43F6D00818405 /* UserProfileView */,
+				55BA4D192BB340A900818405 /* ActivityView */,
 				55BA4D122BB20F7500818405 /* CustomVideoView */,
 				55BA4D022BB1A72500818405 /* Model */,
 				55BA4D0B2BB1EE8100818405 /* PostView */,
@@ -162,6 +247,7 @@
 		935640112BA7214800CB573B /* NotificationView */ = {
 			isa = PBXGroup;
 			children = (
+				55BA4D1E2BB3574B00818405 /* ViewModel */,
 				935640122BA7216100CB573B /* NotificationView.swift */,
 			);
 			path = NotificationView;
@@ -170,6 +256,7 @@
 		935640142BA7220700CB573B /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
+				55BA4D252BB3650700818405 /* ViewModel */,
 				935640152BA7221E00CB573B /* ProfileView.swift */,
 			);
 			path = ProfileView;
@@ -261,20 +348,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BA4D1D2BB3414400818405 /* ActivityMock.swift in Sources */,
 				935640102BA7203400CB573B /* HomeView.swift in Sources */,
+				55BA4D312BB447EA00818405 /* HiglightView.swift in Sources */,
 				935640032BA71B5400CB573B /* MainView.swift in Sources */,
 				935640162BA7221E00CB573B /* ProfileView.swift in Sources */,
 				55BA4D012BB1A53700818405 /* StoryView.swift in Sources */,
+				55BA4D182BB3154600818405 /* User.swift in Sources */,
+				55BA4D292BB368BE00818405 /* HighlightMock.swift in Sources */,
 				55BA4D072BB1A80300818405 /* StoryMock.swift in Sources */,
 				935640012BA71B5400CB573B /* BackfrontPostsApp.swift in Sources */,
+				55BA4D2B2BB3692900818405 /* ProfilePostMock.swift in Sources */,
+				55BA4D242BB3649000818405 /* ProfilePost.swift in Sources */,
 				55BA4D042BB1A73C00818405 /* StoryData.swift in Sources */,
 				55BA4D142BB20F9900818405 /* CustomVideoView.swift in Sources */,
+				55BA4D1B2BB340C900818405 /* ActivityView.swift in Sources */,
+				55BA4D162BB3122A00818405 /* Activity.swift in Sources */,
+				55BA4D2E2BB43F8700818405 /* UserProfileView.swift in Sources */,
+				55BA4D342BB451D800818405 /* PostGridView.swift in Sources */,
+				55BA4D222BB3643B00818405 /* HighlightData.swift in Sources */,
 				935640132BA7216100CB573B /* NotificationView.swift in Sources */,
 				9356401A2BA724D900CB573B /* UIColors+Extensions.swift in Sources */,
 				55BA4D0F2BB1F03D00818405 /* Postdata.swift in Sources */,
 				55BA4D0A2BB1BAAD00818405 /* HomeviewModel.swift in Sources */,
+				55BA4D272BB3652000818405 /* ProfileViewModel.swift in Sources */,
 				55BA4D0D2BB1EE9E00818405 /* PostView.swift in Sources */,
 				55BA4D112BB1F44400818405 /* PostMock.swift in Sources */,
+				55BA4D202BB3576800818405 /* NotificationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
